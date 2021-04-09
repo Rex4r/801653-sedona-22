@@ -14,6 +14,11 @@
     background-position: center 190px;
     background-size: auto 260px;
     background-repeat: no-repeat;
+
+    .title,
+    .text {
+      color: $fc-light;
+    }
   }
 
   &--city {
@@ -22,13 +27,6 @@
 
   &--bridge {
     background-image: url("../../img/advantages/photo-bridge.jpg");
-  }
-
-  &--theme_blue {
-    .title,
-    .text {
-      color: $fc-light;
-    }
   }
 
   &--theme_white {
