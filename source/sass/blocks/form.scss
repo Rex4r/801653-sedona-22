@@ -94,9 +94,11 @@
     background-repeat: no-repeat;
     background-size: 58px 58px;
   }
+
   &--phone::after {
     background-image: url("/img/icon-phone.svg");
   }
+
   &--email::after {
     background-image: url("/img/icon-mail.svg");
   }
