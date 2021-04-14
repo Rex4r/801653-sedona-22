@@ -22,11 +22,11 @@
   }
 
   &--city {
-    background-image: url("../../img/advantages/photo-city.jpg");
+    background-image: url("../img/advantages/photo-city.jpg");
   }
 
   &--bridge {
-    background-image: url("../../img/advantages/photo-bridge.jpg");
+    background-image: url("../img/advantages/photo-bridge.jpg");
   }
 
   &--theme_white {
@@ -60,13 +60,13 @@
 
     .advantages__wrapper::before {
       top: -10px;
-      background-image: url("../../img/advantages/icon-house.svg");
+      background-image: url("../img/advantages/icon-house.svg");
     }
   }
 
   &--gift .advantages__wrapper::before {
     top: -12px;
-    background-image: url("../../img/advantages/icon-gift.svg");
+    background-image: url("../img/advantages/icon-gift.svg");
   }
 
   &--burger {
@@ -74,7 +74,7 @@
 
     .advantages__wrapper::before {
       top: -6px;
-      background-image: url("../../img/advantages/icon-burger.svg");
+      background-image: url("../img/advantages/icon-burger.svg");
     }
   }
 
