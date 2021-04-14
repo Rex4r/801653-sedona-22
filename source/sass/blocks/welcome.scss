@@ -1,4 +1,4 @@
-.welcome {
+.welcome__wrapper {
   height: 389px;
   background-image: url("../../img/back-desktop.jpg");
   background-position: center;
@@ -8,4 +8,12 @@
 
 .welcome__image {
   margin-top: 90px;
+}
+
+.welcome__wrapper--secondary-page {
+  height: 160px;
+
+  .welcome__image {
+    margin-top: 54px;
+  }
 }

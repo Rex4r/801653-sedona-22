@@ -1,10 +1,14 @@
+// global
 @import "global/fonts";
 @import "global/global";
 @import "blocks/page";
 @import "blocks/page-header";
 @import "blocks/welcome";
 @import "blocks/intro";
-@import "blocks/advantages";
-@import "blocks/booking";
 @import "blocks/page-footer";
 @import "blocks/social";
+// home
+@import "blocks/advantages";
+@import "blocks/booking";
+// form
+@import "blocks/form";
