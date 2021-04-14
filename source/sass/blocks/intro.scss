@@ -1,6 +1,15 @@
-.intro {
+.intro__wrapper {
   padding-top: 32px;
   padding-bottom: 27px;
+
+  &--secondary-page {
+    padding-top: 38px;
+    padding-bottom: 16px;
+
+    .intro__text {
+      line-height: 24px;
+    }
+  }
 }
 
 .intro__title {
