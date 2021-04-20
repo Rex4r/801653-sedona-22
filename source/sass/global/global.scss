@@ -3,12 +3,13 @@
 .hidden {
   position: absolute;
   opacity: 0;
+  z-index: -1;
 }
 
 .wrapper {
   text-align: center;
   position: relative;
-  padding: 0 20px;
+  padding: 0 $wrapper-side-padding;
 }
 
 .title {
@@ -106,7 +107,7 @@
   }
 
   &:checked {
-    background-image: url("/img/icon-checkbox.svg");
+    background-image: url("../img/icon-checkbox.svg");
     background-repeat: no-repeat;
     background-position: 12px 15px;
   }
