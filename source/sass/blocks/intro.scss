@@ -1,6 +1,18 @@
+@import "../global/variables";
+
 .intro__wrapper {
   padding-top: 32px;
   padding-bottom: 27px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 43px;
+    padding-bottom: 52px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 55px;
+    padding-bottom: 41px;
+  }
 
   &--form-page {
     padding-top: 38px;

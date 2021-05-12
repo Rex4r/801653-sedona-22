@@ -1,9 +1,23 @@
+@import "../global/variables";
+
+.booking__wrapper {
+  max-width: 458px;
+}
+
 .booking__title {
   margin-top: 33px;
   margin-bottom: 18px;
   font-size: 21px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 58px;
+  }
 }
 
 .booking__button {
   margin: 27px auto 49px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 58px;
+  }
 }
