@@ -17,16 +17,16 @@
     <div class="main-nav__wrapper">
       <ul class="main-nav__list">
         <li class="main-nav__item">
-          <a href="/">Главная</a>
+          <a href="/" class="main-nav__link">Главная</a>
         </li>
         <li class="main-nav__item">
-          <a href="javascript:void(0);">Фото и видео</a>
+          <a href="javascript:void(0);" class="main-nav__link">Фото и видео</a>
         </li>
         <li class="main-nav__item">
-          <a href="/form.html">Форма отзыва</a>
+          <a href="/form.html" class="main-nav__link">Форма отзыва</a>
         </li>
         <li class="main-nav__item">
-          <a href="https://htmlacademy.ru/intensive/adaptive">HTML ACADEMY</a>
+          <a href="https://htmlacademy.ru/intensive/adaptive" class="main-nav__link">HTML ACADEMY</a>
         </li>
       </ul>
     </div>
@@ -42,7 +42,7 @@
   <section class="intro">
     <div class="intro__wrapper intro__wrapper--catalog-page wrapper">
       <h1 class="intro__title title">Фото и видео</h1>
-      <div class="intro__text text">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</div>
+      <div class="intro__text text">Не можете решиться на путешествие из-за курса?<br>Фотографии помогут вам забыть о политике и экономике.</div>
     </div>
   </section>
 
@@ -50,13 +50,15 @@
     <div class="wrapper">
       <h2 class="hidden">Фотографии</h2>
       <div class="gallery__list">
-        <div class="gallery__item">
+        <div class="gallery__item gallery__item--big-img">
           <a href="img/gallery/photo-1.jpg" class="gallery__photo">
             <img src="img/gallery/photo-1-mobile.jpg" alt="Неродные просторы" class="gallery__image">
           </a>
-          <div class="gallery__info">
-            <h3 class="gallery__title text">Неродные просторы</h3>
-            <div class="gallery__author text">Автор фото: Борис</div>
+          <div class="gallery__description">
+            <div class="gallery__info">
+              <h3 class="gallery__title text">Неродные просторы</h3>
+              <div class="gallery__author text">Автор фото: Борис</div>
+            </div>
             <div class="gallery__likes text">1350</div>
           </div>
         </div>
@@ -64,9 +66,11 @@
           <a href="img/gallery/photo-2.jpg" class="gallery__photo">
             <img src="img/gallery/photo-2-mobile.jpg" alt="Местная растительность" class="gallery__image">
           </a>
-          <div class="gallery__info">
-            <h3 class="gallery__title text">Местная растительность</h3>
-            <div class="gallery__author text">Автор фото: Сергей</div>
+          <div class="gallery__description">
+            <div class="gallery__info">
+              <h3 class="gallery__title text">Местная растительность</h3>
+              <div class="gallery__author text">Автор фото: Сергей</div>
+            </div>
             <div class="gallery__likes text">143</div>
           </div>
         </div>
@@ -74,19 +78,21 @@
           <a href="img/gallery/photo-3.jpg" class="gallery__photo">
             <img src="img/gallery/photo-3-mobile.jpg" alt="Дорога на север" class="gallery__image">
           </a>
-          <div class="gallery__info">
-            <h3 class="gallery__title text">Дорога на север</h3>
-            <div class="gallery__author text">Автор фото: Петр</div>
+          <div class="gallery__description">
+            <div class="gallery__info">
+              <h3 class="gallery__title text">Дорога на север</h3>
+              <div class="gallery__author text">Автор фото: Петр</div>
+            </div>
             <div class="gallery__likes text">96</div>
           </div>
         </div>
         <div class="gallery__item">
-          <a href="img/gallery/photo-4.jpg" class="gallery__photo">
-            <img src="img/gallery/photo-4-mobile.jpg" alt="Мост дьявола" class="gallery__image">
-          </a>
-          <div class="gallery__info">
-            <h3 class="gallery__title text">Мост дьявола</h3>
-            <div class="gallery__author text">Автор фото: Антон</div>
+          <a href="img/gallery/photo-4.jpg" class="gallery__photo"><img src="img/gallery/photo-4-mobile.jpg" alt="Мост дьявола" class="gallery__image"></a>
+          <div class="gallery__description">
+            <div class="gallery__info">
+              <h3 class="gallery__title text">Мост дьявола</h3>
+              <div class="gallery__author text">Автор фото: Антон</div>
+            </div>
             <div class="gallery__likes text">254</div>
           </div>
         </div>

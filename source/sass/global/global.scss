@@ -12,6 +12,10 @@
   margin: 0 auto;
   padding: 0 $wrapper-side-padding;
 
+  @media (min-width: $tablet-width) {
+    max-width: 648px;
+  }
+
   @media (min-width: $desktop-width) {
     max-width: 1200px;
   }

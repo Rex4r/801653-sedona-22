@@ -2,36 +2,57 @@
 
 .presentation__info {
   position: relative;
-  padding: 33px 0 10px;
+  padding: 33px 0;
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #e5e5e5;
-    width: 100%;
-    height: 1px;
-    margin-right: -$wrapper-side-padding;
-    margin-left: -$wrapper-side-padding;
-    padding: 0 $wrapper-side-padding;
+  @media (min-width: $tablet-width) {
+    padding: 60px 0 65px;
+  }
+
+  @media (max-width: $mobile-only-width) {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #e5e5e5;
+      width: 100%;
+      height: 1px;
+      margin-right: -$wrapper-side-padding;
+      margin-left: -$wrapper-side-padding;
+      padding: 0 $wrapper-side-padding;
+    }
   }
 }
 
 .presentation__title {
   margin-bottom: 30px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+  }
 }
 
 .presentation__text {
   line-height: 24px;
 }
 
-.presentation__video {
-  max-width: 100%;
-}
-
 .presentation__video-wrapper {
   margin-right: -$wrapper-side-padding;
   margin-left: -$wrapper-side-padding;
   margin-bottom: 77px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 0 85px;
+  }
+}
+
+.presentation__video {
+  width: auto;
+  height: 200px;
+
+  @media (min-width: $tablet-width) {
+    width: 100%;
+    height: 500px;
+    max-width: 800px;
+  }
 }
