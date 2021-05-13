@@ -17,16 +17,16 @@
     <div class="main-nav__wrapper">
       <ul class="main-nav__list">
         <li class="main-nav__item">
-          <a href="/">Главная</a>
+          <a href="/" class="main-nav__link">Главная</a>
         </li>
         <li class="main-nav__item">
-          <a href="/catalog.html">Фото и видео</a>
+          <a href="/catalog.html" class="main-nav__link">Фото и видео</a>
         </li>
         <li class="main-nav__item">
-          <a href="javascript:void(0);">Форма отзыва</a>
+          <a href="javascript:void(0);" class="main-nav__link">Форма отзыва</a>
         </li>
         <li class="main-nav__item">
-          <a href="https://htmlacademy.ru/intensive/adaptive">HTML ACADEMY</a>
+          <a href="https://htmlacademy.ru/intensive/adaptive" class="main-nav__link">HTML ACADEMY</a>
         </li>
       </ul>
     </div>
@@ -49,7 +49,7 @@
   <section class="review">
     <form target="https://echo.htmlacademy.ru" method="post" class="form">
       <fieldset class="form__fieldset form__fieldset--name">
-        <legend class="form__title title">Представьтесь:</legend>
+        <legend class="form__title form__title--name title">Представьтесь:</legend>
         <div class="form__row">
           <label for="name" class="form__label">Имя*:</label>
           <div class="form__input-wrapper">
@@ -67,9 +67,9 @@
       </fieldset>
 
       <fieldset class="form__fieldset form__fieldset--contact">
-        <legend class="form__title title">Контактная информация:</legend>
+        <legend class="form__title form__title--contact title">Контактная информация:</legend>
         <div class="form__row form__row--column">
-          <label for="phone" class="form__label">Контактный телефон*:</label>
+          <label for="phone" class="form__label"><span class="hide-on-desktop">Контактный</span> телефон*:</label>
           <div class="form__input-wrapper form__input-wrapper--phone">
             <input id="phone" name="phone" class="input form__input" type="text" placeholder="Введите телефон" required>
           </div>
@@ -83,7 +83,7 @@
       </fieldset>
 
       <fieldset class="form__fieldset form__fieldset--rate">
-        <legend class="form__title title">Ваше общее впечатление:</legend>
+        <legend class="form__title form__title--rate title">Ваше общее впечатление:</legend>
         <div class="form__row">
           <input id="rate-good" name="rate" class="radio-button form__radio-button" type="radio" value="Скорее положительное" checked="checked">
           <label for="rate-good" class="form__label form__label--bold">Скорее положительное</label>
@@ -99,7 +99,7 @@
       </fieldset>
 
       <fieldset class="form__fieldset form__fieldset--checklist">
-        <legend class="form__title title">посещенные достопримечательности:</legend>
+        <legend class="form__title form__title--checklist title">посещенные<br> достопримечательности:</legend>
         <div class="form__row">
           <input id="places-bridge" name="places-bridge" class="checkbox form__checkbox" type="checkbox" value="Мост Дьявола" checked="checked">
           <label for="places-bridge" class="form__label form__label--bold">Мост Дьявола</label>
@@ -119,15 +119,16 @@
       </fieldset>
 
       <fieldset class="form__fieldset form__fieldset--comment">
-        <legend class="form__title title">Опишите свои эмоции:</legend>
+        <legend class="form__title form__title--comment title">Опишите свои эмоции:</legend>
         <div class="form__row">
           <label for="review-text" class="hidden">Опишите свои эмоции:</label>
           <textarea id="review-text" name="review-text" class="textarea form__textarea" placeholder="Опишите подробно все свои восторги" rows="5" ></textarea>
         </div>
       </fieldset>
 
-      <div class="wrapper">
+      <div class="form__wrapper wrapper">
         <button type="submit" class="button form__button">Отправить отзыв</button>
+        <div class="form__note">* — обязательные поля</div>
       </div>
     </form>
   </section>

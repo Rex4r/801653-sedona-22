@@ -147,3 +147,9 @@
     background-color: $input-darker;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .hide-on-desktop {
+    display: none;
+  }
+}
